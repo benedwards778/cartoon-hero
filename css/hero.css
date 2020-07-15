@@ -4,7 +4,7 @@ body {
     font-size: 15px;
     line-height: 30px;
 }
-
+/* where jerry is */
 header{ 
     background-color: #D33310;
     text-align: center;
@@ -29,18 +29,54 @@ h1,h2{
 }
 
 main{ 
-    max-width: 800px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0px 20px 20px 0px;
 }
 
 h2{
     font-size: 25px;
+    color: black;
+    margin: 20px 0px 0px 20px;
 }
 
-p{
-    
+footer{
+    background-color: #D33310;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+footer p{
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin: 0px 0px 100px 0px;
+}
+
+.splitscreen{
+    display: flex;
+}
+
+.splitscreen .left{
+    flex:1;
+    padding: 0px 50px 0px 50px;
+}
+
+.splitscreen .right{
+    flex:1;
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+
+
 
 
 
